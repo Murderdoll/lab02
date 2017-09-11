@@ -13,7 +13,7 @@
 Block description
 
 ```bash
-$ $ export GITHUB_USERNAME=Murderdoll # Устанавливаем значение переменной окружения GITHUB_USERNAME
+$ export GITHUB_USERNAME=Murderdoll # Устанавливаем значение переменной окружения GITHUB_USERNAME
 $ export GIST_TOKEN=fac2d4859dbd678ea78ae2182b63fd869bc1cb9d # Устанавливаем значение переменной окружения GIST_TOKEN
 $ alias edit=<nano|vi|vim|subl> # Выбираем текстовый редактор, в котором будем работать
 ```
