@@ -15,11 +15,11 @@ Block description
 ```bash
 $ export GITHUB_USERNAME=Murderdoll # Устанавливаем значение переменной окружения GITHUB_USERNAME
 $ export GIST_TOKEN=fac2d4859dbd678ea78ae2182b63fd869bc1cb9d # Устанавливаем значение переменной окружения GIST_TOKEN
-$ alias edit=<nano|vi|vim|subl> # Выбираем текстовый редактор, в котором будем работать
+$ alias edit=subl # Выбираем текстовый редактор, в котором будем работать
 ```
 
 ```bash
-$ npm install -g gistup
+$ npm install -g gistup # Устанавливаем пакет gistup -g - пакет устонавливается глобально
 ```
 
 ```bash
@@ -40,13 +40,13 @@ $ mkdir -p workspace/labs/reports/ # Создаем каталог reports
 ## Report
 
 ```bash
-$ cd ~/workspace/labs/
-$ export LAB_NUMBER=02
-$ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
-$ mkdir reports/lab${LAB_NUMBER}
-$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
-$ cd reports/lab${LAB_NUMBER}
-$ edit REPORT.md
+$ cd ~/workspace/labs/ # Меняем директорию на labs
+$ export LAB_NUMBER=02 # Устанавливаем значение переменной окружения LAB_NUMBER
+$ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER} # Форкаем себе репозиторий
+$ mkdir reports/lab${LAB_NUMBER} # Создаем каталог lab
+$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md # Копируем README.md в REPORT.md
+$ cd reports/lab${LAB_NUMBER} # Меняем директорию
+$ edit REPORT.md # Редактируем REPORT.md
 $ gistup -m "lab${LAB_NUMBER}"
 ```
 
