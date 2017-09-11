@@ -4,16 +4,18 @@
 
 ## Tasks
 
-- [ ] 1. Ознакомиться со ссылками учебного материала
-- [ ] 2. Выполнить инструкцию учебного материала
-- [ ] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
+- [X] 1. Ознакомиться со ссылками учебного материала
+- [X] 2. Выполнить инструкцию учебного материала
+- [X] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
  
 ## Tutorial
 
+Block description
+
 ```bash
-$ export GITHUB_USERNAME=<имя_пользователя>
-$ export GIST_TOKEN=<сохраненный_токен>
-$ alias edit=<nano|vi|vim|subl>
+$ $ export GITHUB_USERNAME=Murderdoll # Устанавливаем значение переменной окружения GITHUB_USERNAME
+$ export GIST_TOKEN=fac2d4859dbd678ea78ae2182b63fd869bc1cb9d # Устанавливаем значение переменной окружения GIST_TOKEN
+$ alias edit=<nano|vi|vim|subl> # Выбираем текстовый редактор, в котором будем работать
 ```
 
 ```bash
@@ -30,9 +32,9 @@ EOF
 
 ```bash
 $ cd ~
-$ mkdir -p workspace/labs/projects/
-$ mkdir -p workspace/labs/tasks/
-$ mkdir -p workspace/labs/reports/
+$ mkdir -p workspace/labs/projects/ # Создаем каталоги workspace, labs, projects    - p - не выдавать ошибок если существует, создавать родительские каталоги если необходимо
+$ mkdir -p workspace/labs/tasks/ # Создаем каталог tasks
+$ mkdir -p workspace/labs/reports/ # Создаем каталог reports
 ```
 
 ## Report
